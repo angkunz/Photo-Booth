@@ -23,7 +23,7 @@ const generateDefaultFrame = (id, name, bgColor, textColor, text) => {
 };
 
 const DEFAULT_FRAMES = [
-  generateDefaultFrame('classic-white', 'คลาสสิก ขาว', '#FFFFFF', '#000000', 'PHOTOBOOTH'),
+  generateDefaultFrame('classic-white', 'คลาสสิก', '#FFFFFF', '#000000', 'PHOTOBOOTH'),
   generateDefaultFrame('dark-mode', 'ดาร์กโหมด', '#1A1A1A', '#FFFFFF', 'MEMORIES'),
   generateDefaultFrame('cute-pink', 'พิงค์กี้', '#FFB6C1', '#FFFFFF', 'CUTE SNAP'),
 ];
@@ -565,9 +565,6 @@ export default function PhotoBooth() {
                   placeholder="ใส่ ID โฟลเดอร์ที่ต้องการเก็บรูป (เว้นว่างไว้จะเก็บที่ My Drive)"
                   className="w-full bg-neutral-950 border border-neutral-700 rounded-lg px-3 py-2 text-sm text-white focus:outline-none focus:border-pink-500 transition-colors"
                 />
-                <p className="text-[10px] text-neutral-500 mt-1">
-                  นำ URL ของ Apps Script ไปฝังในโค้ด (บรรทัดที่ 5) ตรงตัวแปร GOOGLE_SCRIPT_URL
-                </p>
               </div>
             </div>
           </div>
